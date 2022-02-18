@@ -1,0 +1,44 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+Respuestas
+Variable: son espacios donde se almacena un valor que el programa tomara como 
+referencia cuando se llame a la variable. 
+Cabe señalar que a diferencia del uso de las variables en algebra donde una vez 
+asignado el valor a la variable este sera un valor fijo en js existen tipos de 
+variables que no estan atadas a un solo valor sino que puede se puede montar un 
+valor encima de otro y la variable tomara el ultimo valor asignado.
+
+String: es un tipo de dato que hace referencia a una cadena de texto, debe estar 
+encerrado entre comillas y puede contener cuaquier de tipo de caracter.
+
+Funciones: son bloques de codigo que se usan para simplificar tareas que realizara 
+en el codigo. Al igual que en la matematicas una funcion permitira llegar a un 
+de una manera mas simplifacada. Las funciones ayudaran a reducir las lineas de 
+codigo que deberas escribir para llegar al resultado de un planteamiento.
+
+Argumentos: son los datos que usara la funcion para que pueda correr el codigo.
+
+Return: la palabra return es una sentencia que se usa para indicar al programa
+ha finalizado  la ejecucion de una funcion y que debe retornar un valor que se 
+le ha especiicado.
+
+Declaraciones if: declara un condicion que debera cumplirse para que el programa 
+devuelva un resultado.
+
+Valore booleanos: son un tipo de dato que se usan para distinguir solo entre dos
+valores verdadero o falso.
+
+
+
+
+
+
+
+
+
