@@ -1,0 +1,22 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de 
+los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 
+años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu 
+comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+el bucle for es una estructura que se usa para ejecutar un bloque de 
+instruciones repetidas veces.
+
+&&
+es un operador logico que se usa para comparar y comprobar que varias 
+varias sentencias se cumplan al mismo tiempo.
+
+||
+
+es un operador logico que se usa para comparar y comprobar que por lo menos 
+una de las sentencias se cumplan.
+
+!
+es un operador que se usa para negacion.
