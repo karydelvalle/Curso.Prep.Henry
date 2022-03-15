@@ -4,30 +4,56 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
+
+  return nombre.replace(nombre[0], nombre[0].toUpperCase())
+
 }
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
+
+  cb()
 }
 
 function operacionMatematica(n1, n2, cb) {
   //Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
   //Devolver el callback pasándole como argumentos los números recibidos.
-  //Tu código:
-}
+  //Tu código:  
+
+  return cb (n1, n2)
+
+  }
+
 
 function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
+
+
+
+  
+  var suma = numeros.reduce(function (valorAnterior, valorActual) {
+    return valorAnterior + valorActual
+  })
+    cb (suma)
+  
+      
 }
+
+
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
+
+  array.forEach(function (elemento, index, array){
+    cb(elemento)
+  })
+  
 }
 
 function map(array, cb) {
@@ -35,13 +61,27 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+
+   
+  var nuevoarray2 = array.map(function(elemento, index){
+  return cb(elemento)     /*Por que se retorna aqui y en el forEach no si el enunciado es el mismo*/
+  }); return nuevoarray2 /*Preguntar por que hay que retornar el nuevoarray*/
+
 }
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
-}
+
+  // var nuevoArray = array.filter(function (el , index) {
+  //   return el[0] === "a"
+  // }); return nuevoArray
+
+  var nuevoArray = array.filter((el) => el[0] === "a"
+  ); return nuevoArray
+  
+} 
 
 // No modificar nada debajo de esta línea
 // --------------------------------
